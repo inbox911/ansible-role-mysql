@@ -32,3 +32,4 @@ License
 
 BSD
 
+# ansible-role-mysql
