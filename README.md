@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+A role to install mysql DB on Debian. 
 
 Requirements
 ------------
@@ -25,14 +25,10 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - mysql_db
 
 License
 -------
 
 BSD
 
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
